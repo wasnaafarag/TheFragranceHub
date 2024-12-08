@@ -35,11 +35,7 @@ const createanswerstable = `CREATE TABLE IF NOT EXISTS answers(
 
 const createperfumestable = `CREATE TABLE IF NOT EXISTS perfumes(
     ID integer primary key autoincrement, 
-    name text not null, 
-    description text,
-    type text,
-    brand text,
-    image text 
+   
 )`
 
 const createrecommendationstable = `CREATE TABLE IF NOT EXISTS recommendations(
